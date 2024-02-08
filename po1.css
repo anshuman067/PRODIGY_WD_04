@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+
+}
+html body{
+    width: 100%;
+    height:100%;
+    background-color:rgb(9, 9, 39);
+    
+}
+.a:hover{
+    color:aliceblue;
+}
+
+
+
+
+.nav{
+    
+    position: absolute;
+    left: 1rem; top: 17px;
+    
+    
+
+    
+    
+}
+.nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav li{
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(225, 113, 233);
+    float: left;
+    padding-left: 5rem;
+
+}
+.p{
+    position: absolute;
+    right: 1rem;
+    padding-right: 10rem;
+    text-decoration: solid;
+    font-size: xx-large;
+    font-weight: 100;
+    color:rgb(244, 250, 117);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.pic{
+    width: 510px;
+    height: 500px;
+    border: 5px rgb(95, 231, 85) solid;
+    position: absolute;
+    top: 130px;
+    right: 15rem;
+    border-radius:40rem;
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+    
+.pic img{
+    image-resolution: 2px;
+}
+.writting{
+    position: absolute;
+    top: 12rem; left:6rem;
+    color: beige;
+    
+}
+.writting .name{
+    
+font-size:70px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: 100;
+color: rgb(236, 173, 95);
+}  
+
+
+.name1{
+font-size:23px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: 100;
+color: rgb(147, 249, 188);
+font-style: italic;
+}
+
+.custom-shape-divider-bottom-1707156953 {
+    position: absolute;
+    top: 50rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707156953 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 146px;
+}
+
+.custom-shape-divider-bottom-1707156953 .shape-fill {
+    fill: #F6F882;
+}
+
+
+
+
+.row{
+    position: absolute;
+    top: 70rem;
+    padding-left: 40px;
+    
+}
+
+
+
+.col img {
+    width: 470px;
+    height: 460px;
+    border:10px solid rgb(93, 249, 239);
+    border-radius: 30rem;
+    
+
+}
+
+
+.col-7 .we{
+    
+    overflow: hidden;
+    font-size: 3rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(239, 73, 223);
+
+}
+.col-7 .we1{
+    font-size: xx-large;
+    color: aliceblue;  
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.link{
+    position: absolute;
+    top: 50rem;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    a:hover{
+        color:aliceblue;
+    }
+    
+    
+}
+ .link1{
+        font-size:2.9rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: rgb(132, 235, 180);
+      
+}
+.link2{
+    position: absolute;
+    left: 200px; 
+    display: flex;
+    justify-content: column;
+    
+}
+.link2 .col{
+    padding-left: 6.4rem;
+    font-size: 2rem;
+}
+.skill h3{
+    margin: 5px;
+    }
+    
+    .skill{
+    position: absolute;
+    top: 2050px;
+    width: 500px;
+    height: 1300px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    
+    .skill li{
+    margin: 20px 0;
+    padding: 10px;
+    }
+    
+    .bar{
+    background: #353648;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier (.25,.8,.25,1);
+    }
+    
+
+.bar:hover{
+ box-shadow: 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+height: 20px;
+float: left;
+background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1.01))
+
+}
+
+
+
+.bar:hover{
+
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+
+
+}
+ .html{
+    width: 90%;
+    animation: html 3s;
+ }
+
+.css{
+   width: 90%;
+   animation: css 3s;
+}
+
+.javascript{
+
+  width: 90%;
+  animation: javascript 3s;
+}
+.react{
+    width: 90%;
+    animation:react 3s;
+}
+.express-js{
+    width: 90%;
+    animation:express-js 3s;
+}
+.node{
+    width: 90%;
+    animation:node 3s;
+}
+.mongodb{
+    width: 90%;
+    animation:mongodb 3s;
+}
+.sql{
+    width: 90%;
+    animation:sql 3s;
+}
+.ui-ux-designing{
+    width: 90%;
+    animation:ui-ux-designing 3s;
+}
+
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes express-js{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes node{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes mongodb{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes sql{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes ui-ux-designing{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+.message{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(54, 44, 38);
+    position: absolute;
+    top: 225.1rem;
+    color: #8de6e6;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+    border-top-left-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+}
+.w{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(64, 228, 105);
+}
+.wew{
+    color: rgb(217, 113, 217);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wew1{
+    color: azure;
+    font-size: x-large;
+
+}
+.message_me1{
+    color: #8de6e6;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 700px;
+    height: 70px;
+    position:absolute ;
+    top: 1700px;
+    right: 12px;
+    
+}
+
+
+.custom-shape-divider-top-1707416874 {
+    position: absolute;
+    top: 36rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1707416874 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 229px;
+}
+
+.custom-shape-divider-top-1707416874 .shape-fill {
+    fill: #4EF0ED;
+}
+
+.err .row{
+    position: absolute;
+    top: 255rem;
+    color: #f9f962;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-large;
+
+
+
+}
+.professional_exp{
+    position: absolute;
+    top: 200rem;
+    width: 100%;
+    height: 400px;
+    background-color: #dd99bf;
+    
+
+}
+.p1{
+    font-size: x-large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+}
+.ty{
+    color: rgb(236, 6, 6);
+    font-style: italic;
+    font-size: xx-large;
+}
+
+ 
+
